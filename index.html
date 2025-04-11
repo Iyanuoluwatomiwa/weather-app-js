@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script
+      src="https://kit.fontawesome.com/7b3d136313.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="sectionOne">
+        <div class="textContainer">
+          <h2>SkyWatch</h2>
+        <form id="weatherForm" onclick="" class="inputContainer">
+            <input type="text" id="userInput" placeholder="Enter city name" />
+            <button type="submit" id="searchBtn">Search</button>
+        </form>
+        
+          <img id="icon" src="" class="fa-solid fa-cloud-arrow-down"></img>
+          <p id="temp"></p>
+          <div id="weatherInfoDisplay"></div>
+        </div>
+        <div class="line"></div>
+        <div class="flexContainer">
+          <div>
+            <p>Home</p>
+            <i class="fa-solid fa-cloud"></i>
+            <p>Cloudy</p>
+          </div>
+          <div>
+            <p>Work</p>
+            <i class="fa-solid fa-moon"></i>
+            <p>Morning</p>
+          </div >
+          <div class="iconBox">
+            <p>Travel</p>
+            <i class="fa-solid fa-sun"></i>
+            <p >Sunny & Dry</p>
+          </div>
+          <div>
+            <p>Park</p>
+            <i class="fa-solid fa-cloud-rain"></i>
+            <p>Showers</p>
+          </div>
+          <div>
+            <p>Gym</p>
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+            <p>Stormy</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./weather.js"></script>
+  </body>
+</html>
